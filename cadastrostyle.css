@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 768px) {}
+  
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+.center{
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+header{
+    color:#dfab00;
+    background-color: rgba(0,0,0,0.9);
+    height: 50px;
+}
+
+.logo{
+    margin-top: 2px;
+}
+
+.logomarca{
+    margin-top: 1px;   
+    color: #dfab00;
+    font-size: 30px;
+}
+
+.logomarca a:hover {
+    color: white;
+}
+
+.menu{
+    margin-left: auto;
+}
+
+.menu-container{
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+.menu-container .logomarca{
+    margin-left: -16%;
+}
+
+.menu-container a.active-menu{
+    background-color: #dfab00;
+    color: black;
+}
+
+.menu-container a{
+    color: #dfab00;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 50px;
+    transition: 0.8s;
+}
+
+.menu-container a:hover{
+    color: wheat;
+}
+
+.background{
+    position: relative;
+    min-height: 1060px;
+    background-image: url('img/image4.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    filter: blur(5px)
+}
+/* Fim do menu de navegação e background */
+
+/* inicio do conteúdo da página de contato */
+.inicio img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    filter: blur(5px)
+}
+
+.cadastro{
+    position: absolute;
+    height: 580px;
+    width: 450px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cadastro{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 15px ;
+}
+
+.cadastro{
+    margin-top: -1000px;
+    margin-left: 35%;
+}
+
+.cadastro{
+    text-align: center;
+}
+
+.create h1{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.create input{  
+    padding: 12px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.create input{
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    margin-top: 40px;
+}
+
+
+
+/* fim conteúdo da página de contato */
+
+/* footer */
+footer{
+    position: relative;
+    background-color: #333;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
